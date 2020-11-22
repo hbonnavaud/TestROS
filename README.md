@@ -38,7 +38,7 @@ use_basic_agent = 3  # we will use bored agent otherwise
 environment_id = 3      # id of the environment to use
 # 1 : Environment1
 # 2 : Environment2
-# 3 : Environment3 with hedonist_table = [[-1, 1], [-0.5, 0.5], [0, 0], [-0.5, 0.5], [-1, 1], [-1.5, 1.5]]
+# 3 : Environment3
 ```
 
 ### Informations techniques

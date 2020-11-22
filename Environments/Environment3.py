@@ -1,7 +1,12 @@
 class Environment3:
-    """ In Environment 2, action 0 yields outcome 1, action 1 yields outcome 0 """
+
+    def __init__(self):
+        self.previous_action = None
+
     def outcome(self, action):
-        if action % 2 != 0:
-            return 1
+        if action == self.previous_action:
+            outcome = 0
         else:
-            return 0
+            outcome = 1
+        self.previous_action = action
+        return outcome
